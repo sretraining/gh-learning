@@ -4,7 +4,7 @@ jobs:
   file-push:
   runs-on: ubuntu-latest
     steps:
-       - name: Code save
-       - uses: actions/checkout@v3
-       - run: echo "checkout completed"
+      - name: Code save
+      - uses: actions/checkout@v3
+      - run: echo "checkout completed"
   
