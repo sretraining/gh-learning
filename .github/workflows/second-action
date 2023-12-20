@@ -1,1 +1,10 @@
-
+name: second-action
+on : push
+jobs:
+  file-push:
+  runs-on: ubuntu-latest
+    steps:
+       - name: Code save
+       - uses: actions/checkout@v3
+       - run: echo "checkout completed"
+  
